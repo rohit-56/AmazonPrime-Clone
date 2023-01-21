@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8CB95D0C296FDA1A001BC1A6 /* Spotify-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB95D0C296FDA1A001BC1A6 /* AmazonPrime-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmazonPrime-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB95D0F296FDA1A001BC1A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB95D11296FDA1A001BC1A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8CB95D13296FDA1A001BC1A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		8CB95D03296FDA1A001BC1A6 = {
 			isa = PBXGroup;
 			children = (
-				8CB95D0E296FDA1A001BC1A6 /* Spotify-Clone */,
+				8CB95D0E296FDA1A001BC1A6 /* AmazonPrime-Clone */,
 				8CB95D0D296FDA1A001BC1A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		8CB95D0D296FDA1A001BC1A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CB95D0C296FDA1A001BC1A6 /* Spotify-Clone.app */,
+				8CB95D0C296FDA1A001BC1A6 /* AmazonPrime-Clone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8CB95D0E296FDA1A001BC1A6 /* Spotify-Clone */ = {
+		8CB95D0E296FDA1A001BC1A6 /* AmazonPrime-Clone */ = {
 			isa = PBXGroup;
 			children = (
 				8CB95D0F296FDA1A001BC1A6 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				8CB95D1A296FDA1B001BC1A6 /* LaunchScreen.storyboard */,
 				8CB95D1D296FDA1B001BC1A6 /* Info.plist */,
 			);
-			path = "Spotify-Clone";
+			path = "AmazonPrime-Clone";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CB95D0B296FDA1A001BC1A6 /* Spotify-Clone */ = {
+		8CB95D0B296FDA1A001BC1A6 /* AmazonPrime-Clone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CB95D20296FDA1B001BC1A6 /* Build configuration list for PBXNativeTarget "Spotify-Clone" */;
+			buildConfigurationList = 8CB95D20296FDA1B001BC1A6 /* Build configuration list for PBXNativeTarget "AmazonPrime-Clone" */;
 			buildPhases = (
 				8CB95D08296FDA1A001BC1A6 /* Sources */,
 				8CB95D09296FDA1A001BC1A6 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Spotify-Clone";
+			name = "AmazonPrime-Clone";
 			productName = "Spotify-Clone";
-			productReference = 8CB95D0C296FDA1A001BC1A6 /* Spotify-Clone.app */;
+			productReference = 8CB95D0C296FDA1A001BC1A6 /* AmazonPrime-Clone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CB95D07296FDA1A001BC1A6 /* Build configuration list for PBXProject "Spotify-Clone" */;
+			buildConfigurationList = 8CB95D07296FDA1A001BC1A6 /* Build configuration list for PBXProject "AmazonPrime-Clone" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CB95D0B296FDA1A001BC1A6 /* Spotify-Clone */,
+				8CB95D0B296FDA1A001BC1A6 /* AmazonPrime-Clone */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Spotify-Clone/Info.plist";
+				INFOPLIST_FILE = "AmazonPrime-Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Spotify-Clone/Info.plist";
+				INFOPLIST_FILE = "AmazonPrime-Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CB95D07296FDA1A001BC1A6 /* Build configuration list for PBXProject "Spotify-Clone" */ = {
+		8CB95D07296FDA1A001BC1A6 /* Build configuration list for PBXProject "AmazonPrime-Clone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CB95D1E296FDA1B001BC1A6 /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CB95D20296FDA1B001BC1A6 /* Build configuration list for PBXNativeTarget "Spotify-Clone" */ = {
+		8CB95D20296FDA1B001BC1A6 /* Build configuration list for PBXNativeTarget "AmazonPrime-Clone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CB95D21296FDA1B001BC1A6 /* Debug */,
