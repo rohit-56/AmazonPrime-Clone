@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         button.backgroundColor = UIColor(named: "signInColor")
         button.layer.cornerRadius = 25
         button.titleLabel?.font = .systemFont(ofSize: 20, weight: .bold)
+        button.addTarget(self, action: #selector(switchToLogin), for: .touchUpInside)
         return button
     }()
     
@@ -52,6 +53,7 @@ class ViewController: UIViewController {
         button.layer.borderWidth = 2
         button.layer.borderColor = UIColor(named: "signUpColor")?.cgColor
         button.titleLabel?.font = .systemFont(ofSize: 20, weight: .bold)
+        button.addTarget(self, action: #selector(switchToSignUp), for: .touchUpInside)
         button.layer.cornerRadius = 25
         return button
     }()
@@ -127,6 +129,22 @@ class ViewController: UIViewController {
         NSLayoutConstraint.activate(labelConstrains)
         NSLayoutConstraint.activate(signInButtonConstraints)
         NSLayoutConstraint.activate(singUpButtonConstraints)
+    }
+    
+    @objc func switchToSignUp(){
+        let storyboard = UIStoryboard(name: "SignUp", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "SignUpViewController") as UIViewController
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .coverVertical
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func switchToLogin(){
+        let storyboard = UIStoryboard(name: "Login", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as UIViewController
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .coverVertical
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
