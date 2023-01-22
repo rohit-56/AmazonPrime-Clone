@@ -56,6 +56,11 @@
 		8CB95D0E296FDA1A001BC1A6 /* AmazonPrime-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				8CC0A6AA297BFF0B00D6B82A /* Resources */,
+				8CC0A6A9297BFF0600D6B82A /* Manager */,
+				8CC0A6A8297BFEFE00D6B82A /* Model */,
+				8CC0A6A7297BFEF500D6B82A /* ViewModel */,
+				8CC0A6A6297BFEF000D6B82A /* View */,
 				8CB95D0F296FDA1A001BC1A6 /* AppDelegate.swift */,
 				8CB95D11296FDA1A001BC1A6 /* SceneDelegate.swift */,
 				8CB95D13296FDA1A001BC1A6 /* ViewController.swift */,
@@ -65,6 +70,41 @@
 				8CB95D1D296FDA1B001BC1A6 /* Info.plist */,
 			);
 			path = "AmazonPrime-Clone";
+			sourceTree = "<group>";
+		};
+		8CC0A6A6297BFEF000D6B82A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CC0A6A7297BFEF500D6B82A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CC0A6A8297BFEFE00D6B82A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CC0A6A9297BFF0600D6B82A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8CC0A6AA297BFF0B00D6B82A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
