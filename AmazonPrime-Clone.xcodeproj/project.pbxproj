@@ -17,6 +17,7 @@
 		8CC0A6AE297D1B7700D6B82A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0A6AD297D1B7700D6B82A /* SignUpViewController.swift */; };
 		8CC0A6B1297D1BC800D6B82A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0A6B0297D1BC800D6B82A /* Login.storyboard */; };
 		8CC0A6B3297D1BD200D6B82A /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0A6B2297D1BD200D6B82A /* SignUp.storyboard */; };
+		8CC0A6B6297D43B300D6B82A /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0A6B5297D43B300D6B82A /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8CC0A6AD297D1B7700D6B82A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8CC0A6B0297D1BC800D6B82A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		8CC0A6B2297D1BD200D6B82A /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		8CC0A6B5297D43B300D6B82A /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		8CC0A6A9297BFF0600D6B82A /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				8CC0A6B4297D439200D6B82A /* Extensions */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 				8CC0A6B2297D1BD200D6B82A /* SignUp.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8CC0A6B4297D439200D6B82A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0A6B5297D43B300D6B82A /* extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 				8CB95D10296FDA1A001BC1A6 /* AppDelegate.swift in Sources */,
 				8CB95D12296FDA1A001BC1A6 /* SceneDelegate.swift in Sources */,
 				8CC0A6AE297D1B7700D6B82A /* SignUpViewController.swift in Sources */,
+				8CC0A6B6297D43B300D6B82A /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
