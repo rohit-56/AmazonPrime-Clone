@@ -28,12 +28,11 @@ class SignUpViewController: UIViewController {
     
     private var enterName : UITextField = {
        var textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: "Your Name" , attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        textField.attributedPlaceholder = NSAttributedString(string: "Your Name" , attributes: [NSAttributedString.Key.foregroundColor : UIColor(named: "placeHolderColor")])
         
-        textField.tintColor = .white
-        //textField.textAlignment = .center
+        textField.tintColor = UIColor(named: "placeHolderColor")
         textField.backgroundColor = UIColor(named: "textFieldColor")
-        textField.textColor = .white
+        textField.textColor = UIColor(named: "placeHolderColor")
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.layer.cornerRadius = 25
         return textField
@@ -41,10 +40,10 @@ class SignUpViewController: UIViewController {
     
     private var enterEmail : UITextField = {
         var textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: "Email" , attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        textField.attributedPlaceholder = NSAttributedString(string: "Email" , attributes: [NSAttributedString.Key.foregroundColor : UIColor(named: "placeHolderColor")])
         textField.backgroundColor = UIColor(named: "textFieldColor")
-        textField.textAlignment = .center
-        textField.textColor = .white
+        textField.tintColor = UIColor(named: "placeHolderColor")
+        textField.textColor = UIColor(named: "placeHolderColor")
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.layer.cornerRadius = 25
          return textField
@@ -52,10 +51,10 @@ class SignUpViewController: UIViewController {
     
     private var enterPassword : UITextField = {
        var textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: "Password" , attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        textField.attributedPlaceholder = NSAttributedString(string: "Password" , attributes: [NSAttributedString.Key.foregroundColor : UIColor(named: "placeHolderColor")])
         textField.backgroundColor = UIColor(named: "textFieldColor")
-        textField.textAlignment = .center
-        textField.textColor = .white
+        textField.tintColor = UIColor(named: "placeHolderColor")
+        textField.textColor = UIColor(named: "placeHolderColor")
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.layer.cornerRadius = 25
         return textField
@@ -63,10 +62,10 @@ class SignUpViewController: UIViewController {
     
     private var confirmPassword : UITextField = {
        var textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: "Confirm Password" , attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        textField.attributedPlaceholder = NSAttributedString(string: "Confirm Password" , attributes: [NSAttributedString.Key.foregroundColor : UIColor(named: "placeHolderColor")])
         textField.backgroundColor = UIColor(named: "textFieldColor")
-        textField.textAlignment = .center
-        textField.textColor = .white
+        textField.textColor = UIColor(named: "placeHolderColor")
+        textField.tintColor = UIColor(named: "placeHolderColor")
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.layer.cornerRadius = 25
         return textField
@@ -77,6 +76,7 @@ class SignUpViewController: UIViewController {
         button.setTitle("Create Your Account", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.titleLabel?.textColor = .white
+        button.titleLabel?.font = .systemFont(ofSize: 20,weight: .bold)
         button.backgroundColor = UIColor(named: "signInColor")
         button.layer.cornerRadius = 25
         return button
@@ -86,7 +86,7 @@ class SignUpViewController: UIViewController {
        var label = UILabel()
         label.text = "Password must be atleast 6 characters"
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .white
+        label.textColor = UIColor(named: "placeHolderColor")
         label.textAlignment = .center
         label.font = .systemFont(ofSize: 12)
         return label
@@ -115,6 +115,9 @@ class SignUpViewController: UIViewController {
         stackView.addSubview(createAccountButton)
         
         enterName.addIconOnLeft(40, "person.circle")
+        enterEmail.addIconOnLeft(40, "envelope" )
+        enterPassword.addIconOnLeft(40, "lock")
+        confirmPassword.addIconOnLeft(40, "lock")
         
         view.addSubview(stackView)
         view.addSubview(createLabel)
@@ -127,7 +130,7 @@ class SignUpViewController: UIViewController {
     func applyConstraints(){
         let createLabelConstraints = [
         
-            createLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 40),
+            createLabel.bottomAnchor.constraint(equalTo: stackView.topAnchor, constant: -50),
             createLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             createLabel.heightAnchor.constraint(equalToConstant: 40),
             
@@ -136,7 +139,7 @@ class SignUpViewController: UIViewController {
         let stackViewConstraints = [
             stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            stackView.widthAnchor.constraint(equalToConstant: 270),
+            stackView.widthAnchor.constraint(equalToConstant: 300),
             stackView.heightAnchor.constraint(equalToConstant: 350),
         ]
         
