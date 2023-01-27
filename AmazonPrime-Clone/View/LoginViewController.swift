@@ -99,6 +99,9 @@ class LoginViewController: UIViewController {
         button.backgroundColor = UIColor(named: "signInColor")
         button.titleLabel?.textAlignment = .center
         button.layer.cornerRadius = 25
+        
+        button.addTarget(self, action: #selector(switchToHomeTab), for: .touchUpInside)
+        
         return button
     }()
     
@@ -205,6 +208,14 @@ class LoginViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         background.frame = view.bounds
+    }
+    
+    @objc func switchToHomeTab(){
+        let storyboard = UIStoryboard(name: "MainTabbar", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MainTabBarViewController") as! UITabBarController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+        
     }
     
 
