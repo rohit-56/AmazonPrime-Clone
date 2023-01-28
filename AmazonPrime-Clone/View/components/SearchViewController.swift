@@ -13,7 +13,7 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = .brown
+        navigationItem.titleView =  NavigationView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 40))
     }
     
 
