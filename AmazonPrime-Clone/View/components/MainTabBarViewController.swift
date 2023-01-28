@@ -24,10 +24,17 @@ class MainTabBarViewController: UITabBarController {
         vc3.title = "Search"
         vc4.title = "Downloads"
         
+        vc1.tabBarItem.image = UIImage(systemName: "house")
+        vc2.tabBarItem.image = UIImage(systemName: "bag")
+        vc3.tabBarItem.image = UIImage(systemName: "magnifyingglass")
+        vc4.tabBarItem.image = UIImage(systemName: "arrow.down")
+        
+        
         
         setViewControllers([vc1,vc2,vc3,vc4], animated: true)
         
-        tabBar.tintColor = .label
+        tabBar.tintColor = .black
+        
         
     }
     
