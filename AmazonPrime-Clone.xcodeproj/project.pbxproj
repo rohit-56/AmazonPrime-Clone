@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C1C03F02986690500FC4C37 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C03EF2986690500FC4C37 /* Key.swift */; };
 		8C76F29529840001004AB579 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F29429840001004AB579 /* MainTabBarViewController.swift */; };
 		8C76F29729840019004AB579 /* MainTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C76F29629840019004AB579 /* MainTabbar.storyboard */; };
 		8C76F29929840059004AB579 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F29829840059004AB579 /* HomeViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C1C03EF2986690500FC4C37 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		8C76F29429840001004AB579 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		8C76F29629840019004AB579 /* MainTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabbar.storyboard; sourceTree = "<group>"; };
 		8C76F29829840059004AB579 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				8CA5881629864A4200A583A2 /* APICaller.swift */,
+				8C1C03EF2986690500FC4C37 /* Key.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				8CB95D12296FDA1A001BC1A6 /* SceneDelegate.swift in Sources */,
 				8CC0A6AE297D1B7700D6B82A /* SignUpViewController.swift in Sources */,
 				8C76F2A329840B3F004AB579 /* NavigationView.swift in Sources */,
+				8C1C03F02986690500FC4C37 /* Key.swift in Sources */,
 				8CA5881729864A4200A583A2 /* APICaller.swift in Sources */,
 				8CC0A6B6297D43B300D6B82A /* extensions.swift in Sources */,
 			);
