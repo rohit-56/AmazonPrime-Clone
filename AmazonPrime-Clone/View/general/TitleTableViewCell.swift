@@ -17,7 +17,7 @@ class TitleTableViewCell: UITableViewCell {
         layout.scrollDirection = .horizontal
         
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.register(TitileCollectionViewCell.self, forCellWithReuseIdentifier: TitileCollectionViewCell.identifier)
         return collectionView
     }()
     
@@ -46,8 +46,7 @@ extension TitleTableViewCell : UICollectionViewDelegate , UICollectionViewDataSo
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        cell.backgroundColor = .red
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TitileCollectionViewCell.identifier, for: indexPath) as? TitileCollectionViewCell else {return UICollectionViewCell()}
         return cell
     }
     
