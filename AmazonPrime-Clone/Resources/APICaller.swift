@@ -11,7 +11,6 @@ import Foundation
 class APICaller {
     
     static let shared = APICaller()
-    
-    
+
     
 }
