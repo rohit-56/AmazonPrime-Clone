@@ -16,6 +16,7 @@
 		8C76F2A329840B3F004AB579 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F2A229840B3F004AB579 /* NavigationView.swift */; };
 		8C76F2A529843C9E004AB579 /* TitileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F2A429843C9E004AB579 /* TitileCollectionViewCell.swift */; };
 		8C76F2A729843CB4004AB579 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F2A629843CB4004AB579 /* TitleTableViewCell.swift */; };
+		8C84EBF529865E80000305B4 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84EBF429865E80000305B4 /* APIKey.swift */; };
 		8CA5881729864A4200A583A2 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5881629864A4200A583A2 /* APICaller.swift */; };
 		8CB95D10296FDA1A001BC1A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB95D0F296FDA1A001BC1A6 /* AppDelegate.swift */; };
 		8CB95D12296FDA1A001BC1A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB95D11296FDA1A001BC1A6 /* SceneDelegate.swift */; };
@@ -40,6 +41,7 @@
 		8C76F2A229840B3F004AB579 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		8C76F2A429843C9E004AB579 /* TitileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitileCollectionViewCell.swift; sourceTree = "<group>"; };
 		8C76F2A629843CB4004AB579 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		8C84EBF429865E80000305B4 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		8CA5881629864A4200A583A2 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		8CB95D0C296FDA1A001BC1A6 /* AmazonPrime-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmazonPrime-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB95D0F296FDA1A001BC1A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				8CA5881629864A4200A583A2 /* APICaller.swift */,
+				8C84EBF429865E80000305B4 /* APIKey.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				8C76F2A529843C9E004AB579 /* TitileCollectionViewCell.swift in Sources */,
 				8C76F29529840001004AB579 /* MainTabBarViewController.swift in Sources */,
 				8C76F29B298400C4004AB579 /* DownloadsViewController.swift in Sources */,
+				8C84EBF529865E80000305B4 /* APIKey.swift in Sources */,
 				8CB95D12296FDA1A001BC1A6 /* SceneDelegate.swift in Sources */,
 				8CC0A6AE297D1B7700D6B82A /* SignUpViewController.swift in Sources */,
 				8C76F2A329840B3F004AB579 /* NavigationView.swift in Sources */,
