@@ -29,6 +29,18 @@ class HomeViewController: UIViewController {
         navigationItem.titleView =  NavigationView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 40))
         
         tableView.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 250))
+        
+        
+        APICaller.shared.getTrendingMovies(){ results in
+            switch(results){
+            case .success(let movies):
+                print(movies)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+            
+            
+        }
        
     }
     
