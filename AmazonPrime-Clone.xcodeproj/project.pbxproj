@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C02763A298C1F8F00868DBE /* TrendingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C027639298C1F8E00868DBE /* TrendingResponse.swift */; };
 		8C1C03F02986690500FC4C37 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C03EF2986690500FC4C37 /* Key.swift */; };
 		8C76F29529840001004AB579 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F29429840001004AB579 /* MainTabBarViewController.swift */; };
 		8C76F29729840019004AB579 /* MainTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C76F29629840019004AB579 /* MainTabbar.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C027639298C1F8E00868DBE /* TrendingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingResponse.swift; sourceTree = "<group>"; };
 		8C1C03EF2986690500FC4C37 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		8C76F29429840001004AB579 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		8C76F29629840019004AB579 /* MainTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabbar.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		8CC0A6A8297BFEFE00D6B82A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8C027639298C1F8E00868DBE /* TrendingResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				8C76F2A529843C9E004AB579 /* TitileCollectionViewCell.swift in Sources */,
 				8C76F29529840001004AB579 /* MainTabBarViewController.swift in Sources */,
 				8C76F29B298400C4004AB579 /* DownloadsViewController.swift in Sources */,
+				8C02763A298C1F8F00868DBE /* TrendingResponse.swift in Sources */,
 				8CB95D12296FDA1A001BC1A6 /* SceneDelegate.swift in Sources */,
 				8CC0A6AE297D1B7700D6B82A /* SignUpViewController.swift in Sources */,
 				8C76F2A329840B3F004AB579 /* NavigationView.swift in Sources */,
